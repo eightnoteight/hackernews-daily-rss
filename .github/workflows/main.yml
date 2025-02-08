@@ -1,4 +1,4 @@
-name: producthunt-daily-top
+name: hackernews-daily-top
 
 on:
   schedule:
