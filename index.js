@@ -3,17 +3,17 @@ const dayjs = require('dayjs');
 const fs = require('fs');
 
 const feed = new Feed({
-  title: 'Product Hunt daily RSS feed',
-  description: 'The missing RSS feed for ProductHunt daily top posts',
-  link: 'https://github.com/headllines/producthunt-daily-rss',
+  title: 'Hacker News daily RSS feed',
+  description: 'The missing RSS feed for Hacker News daily top posts',
+  link: 'https://github.com/headllines/hackernews-daily-rss',
 });
 
 const items = Array(15).fill()
   .map((_, i) => dayjs().subtract(i + 1, 'day'))
   .map(day => ({
-    title: `Product Hunt daily top posts @${day.format('YYYY/MM/DD')}`,
+    title: `Hacker News daily top posts @${day.format('YYYY/MM/DD')}`,
     date: day.add(1, 'day').toDate(),
-    link: `https://www.producthunt.com/leaderboard/daily/${day.format('YYYY/MM/DD')}/`,
+    link: `https://news.ycombinator.com/front?day=${day.format('YYYY-MM-DD')}`,
   }))
   .forEach(item => feed.addItem(item));
 
