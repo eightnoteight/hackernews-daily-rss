@@ -4,9 +4,15 @@
         <title>Hacker News daily RSS feed</title>
         <link>https://github.com/headllines/hackernews-daily-rss</link>
         <description>The missing RSS feed for Hacker News daily top posts</description>
-        <lastBuildDate>Sat, 22 Nov 2025 06:00:41 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Nov 2025 06:00:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hacker News daily top posts @2025/11/22]]></title>
+            <link>https://news.ycombinator.com/front?day=2025-11-22</link>
+            <guid>https://news.ycombinator.com/front?day=2025-11-22</guid>
+            <pubDate>Sun, 23 Nov 2025 06:00:41 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Hacker News daily top posts @2025/11/21]]></title>
             <link>https://news.ycombinator.com/front?day=2025-11-21</link>
@@ -90,12 +96,6 @@
             <link>https://news.ycombinator.com/front?day=2025-11-08</link>
             <guid>https://news.ycombinator.com/front?day=2025-11-08</guid>
             <pubDate>Sun, 09 Nov 2025 06:00:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Hacker News daily top posts @2025/11/07]]></title>
-            <link>https://news.ycombinator.com/front?day=2025-11-07</link>
-            <guid>https://news.ycombinator.com/front?day=2025-11-07</guid>
-            <pubDate>Sat, 08 Nov 2025 06:00:41 GMT</pubDate>
         </item>
     </channel>
 </rss>
